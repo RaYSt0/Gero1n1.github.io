@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+body{
+	background-color: lightblue;
+    text-align: center;
+    color: seashell;
+    background-size: 100%;
+    text-align: center;
+}
+.work-mine{
+    padding-left: 1200px;
+    margin-top: -591px;
+}
+.img-work-mine{
+    height: 102px;
+    width: 282px;
+}
+.menu-img{
+    padding-top: 129px;
+    width: 530px;
+    height: 450px;
+    margin-right: 690px;
+}
+.work-div{
+    width: 10%;
+	float: left;
+	padding: 5%;
+	margin-left: 7%;
+	margin-bottom: 2%;
+    text-align: center;
+    background-size: 10px 10px;
+}
+.img-1, .img-2, .img-3, .img-4{
+    width: 55%;
+    float: auto;
+    padding: 5%;
+}
+.img-2{
+    margin-left: 280px;
+    padding: 5%;
+    margin-left: 7%;
+
+}
+h2{
+    margin-top: 50px;
+}
+.mine-2{
+    margin-top: 7%;
+	margin-bottom: 7%;
+}

@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+}
+body{
+	background: url(img/fon.jpeg);
+	background-size: 100%;
+	
+	background-color: lightblue;
+	height: 100vh;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 2%;
+}
+li{
+	text-align: center;
+}
+header a{
+	text-decoration: none;
+	padding: 5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.stats{
+	color: #FDBEB6;
+	float: right;/*стиль для списка характеристик компутера*/
+}
+.menu{
+	display: inline;/*чтоб меню было по центру. Это тоже список, но выглядель он должен по-другому*/
+}
+.second{
+	width: 33;
+	background: rgba(0,0,0,0.5);	
+}
+.character{
+	margin-top: 3%;
+	width:20%;
+	box-shadow: 10px -5px 30px;
+}
+.main{
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+.teacher{
+	color:pink;
+	font-weight: bold;
+}
+
+.slider-wrap {
+            background-color: #85CCF4;
+            width: 1400px;
+            height: 560px;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+.slider {
+            width: inherit; 
+            height: inherit;
+            position: relative;
+        }
+.slide {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 1s;
+}
+.control {
+          margin: 42% 0 0 0;
+          cursor: pointer; /*Каким становится курсор мышки при наведении на кнопочку переключения картинки*/
+
+}
+
+#slide1_control:checked ~ .slide1,
+#slide2_control:checked ~ .slide2, 
+#slide3_control:checked ~ .slide3, 
+#slide4_control:checked ~ .slide4,
+#slide5_control:checked ~ .slide5 {
+    opacity: 1;
+}
+.figures{
+    width: 33%; 
+    float: left;
+    padding-top: 2%;
+}
+aside{
+	width: 20%;
+	font-weight: bold;
+	font-style: italic;
+	float: right;
+	margin-right: 7%;
+}
+.garden{
+	width: 30%;
+	float: left;
+	padding: 5%;
+	margin-left: 7%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.main{
+	margin-top: 5%;
+}
+.garden-3{
+	clear: left;
+}
+.price{
+	font-size: 18px;
+}
+h1{
+	color: white;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 2%;
+}
+img{;
+	width: 450px;
+    height: 320px;
+    float: left;
+}
+p{
+color: #FDBEB6;
+}
+.map{
+	padding-right: 11em;
+	margin-top: 12px; 
+}
+h3{
+	color: white;
+}
+h4{
+	color: white;
+}
+button{
+	margin-top: 10em;
+}
+a.buttons {
+  width: 150px;
+  height: 30px;
+  text-decoration: none;
+  padding-top: 9px;
+  color: #a675b3;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font: normal 17px arial;
+}
+
+a.buttons:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#3b2751, #271739);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+a.buttons:not(.active):hover,
+a.buttons:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: #fff;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+a.buttons:not(:hover) {
+    transition: 0.6s;
+}
+h2{
+	color: white;
+}
+footer{
+    clear: left;
+    font-size: 25px;
+    padding-top: 2em;
+    background: #000000;
+    height: 4em;
+    color: white;
+}
+.text{
+    width: 85%;
+    float: left;
+    text-align: left;
+} 
